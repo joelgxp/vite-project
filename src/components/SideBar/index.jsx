@@ -27,6 +27,24 @@ const SideBar = () => {
                     >
                         Mais Vistas
                     </ItemNavegacao>
+                    <ItemNavegacao
+                        iconeAtivo="/icons/mais-curtidas-ativo.png"
+                        iconeInativo="/icons/mais-curtidas-inativo.png"
+                    >
+                        Mais curtidas
+                    </ItemNavegacao>
+                    <ItemNavegacao
+                        iconeAtivo="/icons/novas-ativo.png"
+                        iconeInativo="/icons/novas-inativo.png"
+                    >
+                        Novas
+                    </ItemNavegacao>
+                    <ItemNavegacao
+                        iconeAtivo="/icons/surpreenda-me-ativo.png"
+                        iconeInativo="/icons/surpreenda-me-inativo.png"
+                    >
+                        Surpreenda-me
+                    </ItemNavegacao>
                 </ListStyle>
             </nav>
         </aside>
